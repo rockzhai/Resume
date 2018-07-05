@@ -51,11 +51,11 @@
                             <div class="item-bd">
                                 <p class="section-content">
                                     <strong>Android 开发方向</strong>
-                                    负责<strong> LogSystem </strong> 模块项目重构，将项目分层封装，模块化及解耦主要业务，承担相关开发任务<br>
+                                    负责<strong> LogSystem </strong> 模块项目重构方案设计及程序开发<br>
                                     <strong>软件稳定性方向</strong>
-                                    负责<strong>云诊断</strong>项目 Android 端开发功能迭代，优化各子模块接入流程，分析处理稳定性问题<br>
+                                    负责<strong>云诊断</strong>项目 Android 端开发功能迭代，优化各模块接入流程，分析稳定性问题<br>
                                     <strong>Android 开发方向</strong>
-                                    合作完成<strong> 亲情/远程协助 </strong> 项目 Android 端新需求开发及云测平台上线<br>
+                                    合作完成<strong> 亲情/远程协助 </strong> 项目 Android 端新需求，协助云测平台上线<br>
                                     <strong>场测自动化方向</strong>
                                     协助<strong>场测</strong>项目 Android 端开发功能迭代，处理日常问题<br>
 
@@ -102,20 +102,16 @@
                                 1年<strong>Android</strong>开发相关工作经验，1年在校实践开发经历
                             </p></li>
                             <li><p class="section-content"><i class="iconfont icon-dot"></i>
-                                熟悉Git版本控制及工作流，包括 gerrit 基线（分支）管理模式，常用命令，代码回退等
+                                熟悉Git版本控制及工作流，基线（分支）管理模式，常用命令等
                             </p></li>
                             <li><p class="section-content"><i class="iconfont icon-dot"></i>
-                                熟悉面向对象设计思想及Java基础，如反射、I/O流等，对部分数据结构，如ArrayList、HashMap进行过源码阅读
+                                熟悉面向对象设计思想及Java基础，对部分内容如ArrayList、HashMap进行过源码阅读
                             </p></li>
                             <li><p class="section-content"><i class="iconfont icon-dot"></i>
                                 熟悉Android应用开发，四大组件，AIDL进程通信，View的事件体系及工作原理，SQLite/SQLcipher数据库相关操作，SELinux权限控制等
                             </p></li>
                             <li><p class="section-content"><i class="iconfont icon-dot"></i>
                                 熟悉Android系统启动流程，应用启动流程，稳定性JE、NE、KE、ANR、SWT五类异常处理机制及日志解析
-                            </p></li>
-                            <li><p class="section-content"><i class="iconfont icon-dot"></i>
-                                理解HTTP/HTTPS的原理及区别，了解中间人攻击方式，熟练使用Android Studio、Charles抓包工具及常用adb命令
-
                             </p></li>
                         </ul>
                     </div>
@@ -167,9 +163,11 @@
                             </header>
                             <div class="item-bd">
                                 <p class="section-content">
-                                    <strong>总结项目现状</strong><strong>提出优化点</strong><strong>负责稳定性模块重构设计开发</strong><strong>代码开发</strong><strong>多模块业务对接</strong>
-                                    <!--基于微信小程序<em>MINA框架</em>的<em>WXML</em>、<em>WXSS</em>、JS为代码语言进行开发，视图层采用<em>Flex弹性布局</em>，逻辑层采用模块化模式开发。 此外还利用<em>gulp</em>、<em>Express</em>、<em>ejs</em>、<em>Echarts</em>等技术完成对产品官网及数据大盘的开发。
-                                    -->
+                                    <strong>方案设计</strong><strong>稳定性模块重构设计开发</strong><strong>多模块业务对接</strong><br>
+                                    <strong>重构原则:</strong>可测试性、开闭原则、模块化、低耦合、可复用 <br>
+                                    <strong>方案设计思路:</strong>基础结构分层，系统层上拆分为基础框架层(platform)、核心业务模块层(components)、应用层(application)<br>
+                                    <strong>思想借鉴:</strong>借鉴MVP设计模式思想，通过面向接口编程实现模块间低耦合，借鉴Handler原理，用消息通知实现模块间信息交流，包含消息的注册、发送及接收。<br>
+                                    <strong>可测试性：</strong>提供可以快速测试脚本及自动化测试方案，例如日志解析自动化解析工具，异常制造工具等
                                 </p>
                             </div>
                         </div>
@@ -255,10 +253,12 @@
    <footer class="github-footer">
        <a class="footer-link" href="https://github.com/rockzhai/resume" target="_blank"><i class="iconfont icon-link"></i> github.com/rockzhai/resume</a>
    </footer>
+    <!--
    <footer class="print-footer">
-       <a class="footer-link" href="http://resume.congm.in" target="_blank"><i class="iconfont icon-link"></i> 网页版简历：resume.congm.in</a>
+       <a class="footer-link" href="http://zhaidongyan.cn/resume" target="_blank"><i class="iconfont icon-link"></i> 网页版简历：zhaidongyan.cn/resume</a>
    </footer>
+   -->
    <a class="pdf" href="resume.pdf"><i class="iconfont icon-pdf"></i> PDF简历</a>
-   <script src="//congm.in/tongji/congm.in.js"></script>
+   <script src="http://congm.in/tongji/congm.in.js"></script>
 </body>
 </html>
